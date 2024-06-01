@@ -1,0 +1,45 @@
+@media only screen and (max-width: 699px) {
+    .skills li{
+        width: 5rem;
+        height: 5rem;
+    }
+  }
+  
+
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: calc(100% - 2rem);
+    padding-top: 4rem;
+    gap: 1%;
+    z-index: 10;
+}
+
+.skills li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 10rem;
+    height: 10rem;
+    list-style-type: none;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    z-index: 10;
+}
+
+.SearchIcon{
+    font-size: 40px;
+    color: wheat;
+    mix-blend-mode: screen;
+  }
+
+li:hover{
+    color: white;
+    box-shadow:
+    0 0 30px 10px #fff,
+    0 0 60px 20px #F5DEB3;
+    z-index: 1;
+}

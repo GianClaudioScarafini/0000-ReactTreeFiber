@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+@media only screen and (max-width: 699px) {
+  :root {
+    font-size: 10px;
+  }
+}
 
 
 :root {
@@ -15,11 +20,17 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+
 }
 
 .section{
   height: 100vh;
   width: 100vw;
-  background-color: #242424;
+
+  
   color: rgba(255, 255, 255, 0.87);
+
+
+
 }

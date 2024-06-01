@@ -1,0 +1,27 @@
+.about{
+    background-color: black;
+    height: 20rem;
+    
+}
+.about h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    font-stretch: expanded;
+    padding-top: 2rem;
+    transform: scaleY(1.2);
+    letter-spacing: 1rem;
+}
+
+.about h6{
+    color: white;
+    font-size: 2rem;
+
+    font-stretch: expanded;
+    padding-top: 2rem;
+    padding-left: 1rem;
+
+}
+.about-color{
+    background-color: #242424;
+}
