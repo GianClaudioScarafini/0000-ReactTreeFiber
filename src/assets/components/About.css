@@ -1,8 +1,4 @@
-.about{
-    background-color: black;
-    height: 20rem;
-    
-}
+
 .about h3{
     color: white;
     font-size: 2rem;
@@ -16,8 +12,6 @@
 .about h6{
     color: white;
     font-size: 2rem;
-
-    font-stretch: expanded;
     padding-top: 2rem;
     padding-left: 1rem;
 
